@@ -1,0 +1,18 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing:border-box;
+}
+
+.flex-container {
+display: flex;
+flex-direction: column;
+}
+
+.flex-container .image-box {
+    width: 50%;
+}
+
+.flex-container .image-box img {
+    width: 100%;
+}

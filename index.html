@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>FreeCodeCamp Survey Form</title>
+</head>
+<body>
+    <section id="page-body">
+        <div id="page-header">
+            <h1>FreeCodeCamp Survey Form</h1>
+            <p>Thank you for taking time out to help us improve the platform</p>
+        </div>
+        <div id="form-container">
+            <form action="">
+                <div class="input-box">
+                    <label for="name">Name</label>
+                    <br>
+                    <input type="text" id="name" placeholder="Enter your name">
+                </div>
+                <div class="input-box">
+                    <label for="email">Email</label>
+                    <br>
+                    <input type="email" id="email" placeholder="Enter your email">
+                </div>
+                <div class="input-box">
+                    <label for="age">Age(optional)</label>
+                    <br>
+                    <input type="number" id="age" placeholder="Age">
+                </div>
+                <div class="input-box">
+                    <label for="currentRole" id="current role">Which option best describes your current role?</label><br>
+                    <select name="" id="currentRole">
+                        <option value="">Select your current role</option>
+                        <option value="">Student</option>
+                        <option value="">Full Time Job</option>
+                        <option value="">Full Time Learning</option>
+                        <option value="">Prefer not to say</option>
+                        <option value="">Others</option>
+                    </select>
+                </div>
+                <div class=input-box>
+                    <label for="recommend">Would you love to recommend freeCodeCamp to a friend?</label><br>
+                    <div class="radio-input">
+                        <input type="radio">
+                        <label>definitely</label>
+                    </div>
+                    <div class="radio-input">
+                        <input type="radio">
+                        <label>Maybe</label>
+                    </div>
+                    <div class="radio-input">
+                        <input type="radio">
+                        <label>Not sure</label>
+                    </div>
+                </div>
+                <div class="input-box">
+                    <label for="favFeature">What is your favourite feature on FreeCodeCamp?</label><br>
+                    <select name="" id="favFeature">
+                        <option value="">Select an option</option>
+                        <option value="">Challenges</option>
+                        <option value="">Projects</option>
+                        <option value="">Community</option>
+                        <option value="">Open Source</option>
+                    </select>
+                </div>
+                <div class="input-box">
+                    <label for="improvement">What would you like to see improved?(Check all that applies)</label>
+                    <br>
+                    <div class="check-input">
+                    <input type="checkbox">
+                    <label>Front-end Projects</label>
+                </div>
+                <div class="check-input">
+                    <input type="checkbox">
+                    <label>Back-end Projects</label>
+                </div>
+                <div class="check-input">
+                    <input type="checkbox">
+                    <label>Data Visualisation</label>
+                </div>
+                <div class="check-input">
+                    <input type="checkbox">
+                    <label>Challenges</label>
+                </div>
+                    <div class="check-input">
+                        <input type="checkbox">
+                        <label>Open Source Community</label>
+                    </div>
+
+                </div>
+                <div class="input-box">
+                    <label for="comments">Any comments or suggestions</label><br>
+                    <textarea name="" id="" rows="5" maxlength="300" placeholder="Enter your comments here..."></textarea>
+                </div>
+                <div class="input-box">
+                <input type="submit" value="submit">
+                </div>
+            </form>
+        </div>
+    </section>
+</body>
+</html>
